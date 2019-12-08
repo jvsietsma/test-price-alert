@@ -13,8 +13,8 @@ export class AppController {
 
     @Get()
     public getHello(@Req() request: Request) {
-        const car = new Car("bmw", 2016);
-        return car;
+        // const car = new Car("bmw", 2016);
+        // return car;
         return this.appService.getHello();
     }
 }
