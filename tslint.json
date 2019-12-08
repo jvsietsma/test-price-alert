@@ -1,0 +1,36 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:recommended"],
+  "jsRules": {
+    "no-unused-expression": true
+  },
+  "rules": {
+    "max-line-length": false,
+    "no-submodule-imports": false,
+    "no-implicit-dependencies": false,
+    "no-empty-interface": false,
+    "eofline": true,
+    "no-empty": false,
+    "ban-types": false,
+    "prefer-for-of": false,
+    "no-bitwise": false,
+    "no-console": false,
+    "prefer-conditional-expression": false,
+    "variable-name": [true, "allow-leading-underscore", "allow-pascal-case"],
+    "trailing-comma": [
+        true,
+        {
+            "multiline": {
+                "objects": "always",
+                "arrays": "always",
+                "functions": "never",
+                "typeLiterals": "ignore"
+            },
+            "singleline": "never",
+            "esSpecCompliant": true
+        }
+    ],
+    "semicolon": [true, "always", "ignore-bound-class-methods"]
+},
+"rulesDirectory": []
+}

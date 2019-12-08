@@ -1,0 +1,21 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "workbench.activityBar.visible": true,
+        "typescript.updateImportsOnFileMove.enabled": "always",
+        "editor.minimap.enabled": false,
+        "editor.smoothScrolling": true,
+        "editor.fontFamily": "Menlo, Monaco, 'Fira Mono',  'Courier New', monospace",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+        "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+        "typescript.tsdk": "node_modules/typescript/lib",
+        "files.trimTrailingWhitespace": true
+    }
+}
